@@ -27,16 +27,17 @@ public class Aplication {
 		double ya = sc.nextDouble();
 		double yb = sc.nextDouble();
 		double yc = sc.nextDouble();
-		Triangulo y = new Triangulo (ya, yb, yc);
+		Triangulo y = new Triangulo(ya, yb, yc);
 
-		System.out.printf("area x: %.4f\n",x.Area());
+		System.out.printf("area x: %.4f\n", x.Area());
 		System.out.printf("area y: %.4f\n", y.Area());
-		
+
 		if (x.Area() > x.Area()) {
 			System.out.println("area X maior!");
 		} else {
 			System.out.println("area y maior!");
 		}
+		sc.close();
 
 	}
 
